@@ -1,0 +1,18 @@
+name: hello_amber
+version: 0.1.0
+
+authors:
+  - Eugene Theriault <hybridbassist@gmail.com>
+
+targets:
+  hello_amber:
+    main: src/hello_amber.cr
+
+crystal: 0.36.1
+
+license: MIT
+
+dependencies:
+  amber:
+    github: amberframework/amber
+    version: 0.7.2
