@@ -15,4 +15,4 @@ license: MIT
 dependencies:
   amber:
     github: amberframework/amber
-    version: 0.7.2
+    version: ~> 0.35.0
