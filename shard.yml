@@ -16,3 +16,9 @@ dependencies:
   amber:
     github: amberframework/amber
     branch: master
+  jennifer:
+    github: imdrasil/jennifer.cr
+    branch: master
+  sam:
+    github: imdrasil/sam.cr
+    branch: master

@@ -1,4 +1,7 @@
 require "../config/*"
+require "jennifer"
+require "jennifer/adapter/postgres"
+
 
 Amber::Server.start
 
