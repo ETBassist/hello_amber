@@ -2,11 +2,11 @@ version: 2.0
 shards:
   amber:
     git: https://github.com/amberframework/amber.git
-    version: 0.35.0
+    version: 0.35.0+git.commit.1b87e2a0d3707059ca4f89f98d813fca2b055e20
 
   amber_router:
     git: https://github.com/amberframework/amber-router.git
-    version: 0.3.0
+    version: 0.4.4
 
   callback:
     git: https://github.com/amberframework/callback.git
@@ -50,7 +50,7 @@ shards:
 
   micrate:
     git: https://github.com/amberframework/micrate.git
-    version: 0.8.0
+    version: 0.9.0
 
   mysql:
     git: https://github.com/crystal-lang/crystal-mysql.git
