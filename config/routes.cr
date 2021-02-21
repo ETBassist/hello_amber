@@ -5,6 +5,8 @@ Amber::Server.configure do |app|
 
   routes :web do
     # routing information can be found at: https://docs.amberframework.org/amber/guides/routing
+    get "/", HelloController, :greetings
     get "/hello", HelloController, :hello
+    
   end
 end
